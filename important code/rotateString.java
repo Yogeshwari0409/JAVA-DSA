@@ -1,4 +1,4 @@
-public class RotateString {
+public class rotateString {
     public boolean rotateString(String s, String goal) {
         // Step 1: Check if lengths are different
         if (s.length() != goal.length()) {
@@ -21,7 +21,7 @@ public class RotateString {
     }
 
     public static void main(String[] args) {
-        RotateString obj = new RotateString();
+        rotateString obj = new rotateString();
 
         System.out.println(obj.rotateString("abcde", "cdeab")); // true
         System.out.println(obj.rotateString("abcde", "abced")); // false
